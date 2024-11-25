@@ -1,9 +1,8 @@
 
-    <!--This section for the shopping item display-->
-    
+
+{{#each products}}
 <section>
     <div class="container mt-5">
-        {{#each products}}
         <div class="row">
             <div class="col-md-3">
                 <div class="card" style="width: 18rem;">
@@ -16,6 +15,6 @@
                 </div>
             </div>
         </div>
-        {{/each}}
     </div>
 </section>
+ {{/each}}
